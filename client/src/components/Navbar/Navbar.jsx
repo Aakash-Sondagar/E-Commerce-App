@@ -8,11 +8,11 @@ import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 
 const Navbar = () => {
   return (
-    <div className="h-20">
+    <div className="">
       <div className="flex py-3 px-8 items-center justify-between">
         <div className="flex items-center gap-6">
           <div className="logo">
-            <img className="w-20 h-auto" src="/img/logo.png" alt="logo" />
+            <img className="w-[60px] h-auto" src="/img/logo.png" alt="logo" />
           </div>
           <div className="flex items-center text-lg">
             <Link className="link" to="/products/1">
