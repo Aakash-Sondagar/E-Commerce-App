@@ -17,7 +17,23 @@ const FeaturedProducts = ({ type }) => {
       id: 2,
       image1:
         "https://static.zara.net/assets/public/64c3/e521/f6a14fc4ac38/6f5f907349a7/image-landscape-fill-0fcc0dca-374e-4964-835c-08d6c06fb958-default_0.jpg?ts=1714335419519&amp;w=1920",
-      title: "Product 1",
+      title: "Product 2",
+      oldPrice: 19,
+      price: 12,
+    },
+    {
+      id: 3,
+      image1:
+        "https://static.zara.net/assets/public/64c3/e521/f6a14fc4ac38/6f5f907349a7/image-landscape-fill-0fcc0dca-374e-4964-835c-08d6c06fb958-default_0.jpg?ts=1714335419519&amp;w=1920",
+      title: "Product 3",
+      oldPrice: 19,
+      price: 12,
+    },
+    {
+      id: 4,
+      image1:
+        "https://static.zara.net/assets/public/64c3/e521/f6a14fc4ac38/6f5f907349a7/image-landscape-fill-0fcc0dca-374e-4964-835c-08d6c06fb958-default_0.jpg?ts=1714335419519&amp;w=1920",
+      title: "Product 4",
       oldPrice: 19,
       price: 12,
     },
