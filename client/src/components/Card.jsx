@@ -5,9 +5,9 @@ const Card = (props) => {
   return (
     <Link to={`/product/${data?.id}`}>
       <div className="w-72 flex flex-col gap-3 mb-10">
-        <div className="w-full h-96 overflow-hidden relative">
+        <div className="w-full h-64 overflow-hidden relative rounded-xl">
           {data?.isNew && (
-            <div className=" absolute z-20 top-3 left-3 bg-white text-teal-500 px-3 py-1 font-semibold text-sm">
+            <div className="absolute z-20 top-3 left-3 bg-white text-teal-500 px-3 py-1 font-semibold text-sm">
               New Season
             </div>
           )}
